@@ -68,7 +68,7 @@ function App() {
         hobbies: formData.hobbies
       };
 
-      const response = await fetch('http://localhost:5001/generate', {
+      const response = await fetch('https://ai-portfolio-generator-backend-a744.onrender.com/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
